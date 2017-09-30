@@ -13,7 +13,7 @@ title: Setting-Up-A-SSH-Server-On-Kali-Linux
 our SSH server up and running. Let's go ahead, fire up the terminal and update our system.<br /></p>
 <p>root@kali:~# apt-get update</p>
 <figure>
-<a href="./images/kali-update.png">
-        <img src="./images/kali-update.png" alt="" />
+<a href="http://programthirteen.com/images/kali-update.png">
+        <img src="http://programthirteen.com/images/kali-update.png" alt="" />
     </a>
 </figure>
