@@ -20,6 +20,7 @@ our SSH server up and running. Let's go ahead, fire up the terminal and update o
 </figure>
 <br />
 <p>Next we are going to install the OpenSSH-Server</p>
+<br />
 <p>root@kali:~# apt-get install openssh-server</p>
 <figure>
 <a href="http://programthirteen.com/images/opessh-install.png">
@@ -34,6 +35,8 @@ If you have already made modifications to this file that you wish to keep, selec
 <br />This will give you a sshd_config file with default configurations.</p>
 <p>Once the installation is finished, it is time to begin setting up our new SSH server.<br />
 To make sure our server starts when our system boots, we will add it to our init scripts<br />
+<br />
+<br />
 root@kali:~# update-rc.d ssh remove<br />
 root@kali:~# update-rc.d ssh defaults<br />
 </p>
@@ -49,6 +52,8 @@ and generate some new keys.<p>
 root@kali:~# cd /etc/ssh<br />
 Then create a directory to store our old keys. You can remove these if you want but we<br />
 will store them just incase we ever decide to use them.<br />
+<br />
+<br />
 root@kali:~# mkdir old_keys<br />
 root@kali:~# mv -v *key* old-keys/<br />
 </p>
