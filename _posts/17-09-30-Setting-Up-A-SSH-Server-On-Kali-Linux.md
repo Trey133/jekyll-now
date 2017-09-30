@@ -14,6 +14,6 @@ our SSH server up and running. Let's go ahead, fire up the terminal and update o
 <p>root@kali:~# apt-get update</p>
 <figure>
 <a href="http://programthirteen.com/images/kali-update.png">
-        <img src="http://programthirteen.com/images/kali-update.png" alt="" height=500px width=500px/>
+        <img src="http://programthirteen.com/images/kali-update.png" alt="" height="500px" width="500px"/>
     </a>
 </figure>
