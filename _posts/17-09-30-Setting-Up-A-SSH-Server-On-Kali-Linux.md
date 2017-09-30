@@ -28,7 +28,7 @@ our SSH server up and running. Let's go ahead, fire up the terminal and update o
 </figure>
 <br />
 <p>During the installation process, you should get a dialog that says "Configuring openssh-server".<br />
-This will modify the sshd_config file. This file is that changes how and who can make connections to the server.<br />
+This will modify the sshd_config file. This file changes how and who can make connections to the server.<br />
 If you have already made modifications to this file that you wish to keep, select "keep the local version currently installed".
 <br />If you have not made any changes to this file you may choose to "install the package maintainer's version".
 <br />This will give you a sshd_config file with default configurations.</p>
