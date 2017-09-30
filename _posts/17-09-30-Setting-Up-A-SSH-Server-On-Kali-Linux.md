@@ -6,7 +6,6 @@ title: Setting-Up-A-SSH-Server-On-Kali-Linux
 <ul>
 <li>PC Running Kali Linux</li><br/>
 <li>OpenSSH-Client/Server</li><br/>
-<li>DPKG-Reconfigure</li><br/>
 </ul><br/>
 </p>
 <h2>Setup</h2>
@@ -34,9 +33,8 @@ If you have already made modifications to this file that you wish to keep, selec
 <br />If you have not made any changes to this file you may choose to "install the package maintainer's version".
 <br />This will give you a sshd_config file with default configurations.</p>
 <p>Once the installation is finished, it is time to begin setting up our new SSH server.<br />
-To make sure our server starts when our system boots, we will add it to our init scripts<br />
-<br />
-<br />
+To make sure our server starts when our system boots, we will add it to our init scripts</p>
+<p>
 root@kali:~# update-rc.d ssh remove<br />
 root@kali:~# update-rc.d ssh defaults<br />
 </p>
@@ -48,12 +46,12 @@ root@kali:~# update-rc.d ssh defaults<br />
 <p>Now our SSH server will start automatically everytime the system starts.<br />
 Every openssh-server comes with default encryption keys, so we will go ahead and get rid of those<br />
 and generate some new keys.<p>
-<p>Navigate to the ssh directory,<br />
-root@kali:~# cd /etc/ssh<br />
+<p>Navigate to the ssh directory,</p>
+<p>root@kali:~# cd /etc/ssh</p>
+<p>
 Then create a directory to store our old keys. You can remove these if you want but we<br />
-will store them just incase we ever decide to use them.<br />
-<br />
-<br />
+will store them just incase we ever decide to use them.</p>
+<p>
 root@kali:~# mkdir old_keys<br />
 root@kali:~# mv -v *key* old-keys/<br />
 </p>
