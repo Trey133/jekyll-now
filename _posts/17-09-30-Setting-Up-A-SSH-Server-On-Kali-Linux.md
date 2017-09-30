@@ -3,7 +3,7 @@ layout: post
 title: Setting-Up-A-SSH-Server-On-Kali-Linux
 ---
 <h2>Setup</h2>
-<p align="left"><h3><em>Prerequisites</em></h3>
+<p align="left"><h3 style="text-align: left"><em>Prerequisites</em></h3>
 <ul>
 <li>PC Running Kali Linux</li><br/>
 <li>OpenSSH-Client/Server</li><br/>
