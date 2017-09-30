@@ -1,0 +1,35 @@
+body {
+background-color: black;
+font-style: italic;
+font-family: fantasy;
+font-size: 18;
+color: limegreen;
+text-align: center;
+text-shadow: 20px 12px 3px #ff0000;
+}
+li {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+h1 {
+  text-align: center;
+}
+a {
+  color: limegreen;
+  font-size: 20;
+  p {
+    text-shadow: 20px 12px 3px #ff0000;
+}
+article {
+    text-shadow: 20px 12px 3px #ff0000;
+}
+.sideright {
+background-color: black;
+font-style: italic;
+font-family: fantasy;
+font-size: 15;
+color: limegreen;
+text-align: center;
+}
