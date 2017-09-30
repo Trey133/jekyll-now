@@ -12,4 +12,4 @@ title: Setting-Up-A-SSH-Server-On-Kali-Linux
 <p>We will begin this tutorial by making sure we have everything we need to get<br />
 our SSH server up and running. Let's go ahead, fire up the terminal and update our system.<br /></p>
 <p>root@kali:~# apt-get update</p>
-<img src="http:programthirteen.com/images/kali-update.png" alt="Kali-Update"/>
+![Kali-Update](images/kali-update.png){:class="img-responsive"}
