@@ -22,8 +22,8 @@ on so you can understand exactly what it is your system is doing when the MAC ad
 <h2 style="text-align: left">Prerequisites</h2>
 <p align="left">For this tutorial you will need to have:
 <ul>
-<li>A PC Running Kali Linux2.0</li><br />
-<li>Python2.7<sup>apt-get install python2.7</sup></li><br />
-<li>macchanger <sup>apt-get install macchanger</sup></li><br />
+<li>A PC Running Kali Linux2.0</li><br /><br />
+<li>Python2.7<sup>apt-get install python2.7</sup></li><br /><br />
+<li>macchanger <sup>apt-get install macchanger</sup></li><br /><br />
 </ul>
 </p>
