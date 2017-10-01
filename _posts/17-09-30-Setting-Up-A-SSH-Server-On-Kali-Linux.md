@@ -85,7 +85,6 @@ root@kali:~# service ssh status</p>
         <img src="http://programthirteen.com/images/sucess.png" alt="" height="500px" width="750px"/>
     </a>
 </figure>
-<p>You server is now accessable to anyone on the local network!</p>
 <p>When you logged in you should have gotten a message like this:</p>
 <figure>
 <a href="http://programthirteen.com/images/orig-motd.png">
