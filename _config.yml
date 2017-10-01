@@ -48,13 +48,12 @@ url: http://programthirteen.com
 # and NOT your User repository (http://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
 baseurl: ""
-
+permalink: /404.html
 #
 # !! You don't need to change any of the configuration flags below !!
 #
 
 permalink: /:title/
-permalink: /404.html
 # The release of Jekyll Now that you're using
 version: v1.2.0
 
