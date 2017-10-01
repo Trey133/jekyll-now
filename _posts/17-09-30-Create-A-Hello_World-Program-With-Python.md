@@ -2,7 +2,6 @@
 layout: post
 title: Hello World Program With Python
 ---
-<h1 class="page-heading">Hello World!</h1>
 <br/>
 <h2>Create a simple 'Hello World!' program with python.</h2>
 <p>Today we are going to learn how to make a basic 'Hello World!' program with python.</p>
