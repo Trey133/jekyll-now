@@ -20,10 +20,10 @@ It is recommended that you have a little bit of programming or scripting experie
 this tutorial although it is not required. I will attempt to explain everything that is going<br />
 on so you can understand exactly what it is your system is doing when the MAC address is changed.</p>
 <h2 style="text-align: left">Prerequisites</h2>
-<p align="left">For this tutorial you will need to have:</p>
-<ul align="left">
+<p align="left">For this tutorial you will need to have:
+<ul>
 <li>A PC Running Kali Linux2.0</li><br />
 <li>Python2.7<sup>apt-get install python2.7</sup></li><br />
 <li>macchanger <sup>apt-get install macchanger</sup></li><br />
 </ul>
-
+</p>
