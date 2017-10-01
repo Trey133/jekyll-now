@@ -12,8 +12,8 @@ Any text editor will do</p>
 #!/usr/bin/env python<br />
 </p>
 <figure>
-<a href="http://programthirteen.com/images/hello-header.png">
-        <img src="http://programthirteen.com/images/hello-header.png" alt="" height="500px" width="750px"/>
+<a href="http://programthirteen.com/images/helloheader.png">
+        <img src="http://programthirteen.com/images/helloheader.png" alt="" height="500px" width="750px"/>
     </a>
 </figure>
 <p>This tells our computer that we will be using Python to compile this program.<br />
