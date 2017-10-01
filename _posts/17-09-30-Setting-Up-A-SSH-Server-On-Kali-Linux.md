@@ -60,3 +60,65 @@ root@kali:~# mv -v *key* old-keys/<br />
         <img src="http://programthirteen.com/images/update-keys.png" alt="" height="500px" width="750px"/>
     </a>
 </figure>
+<p>Now run dpkg-reconfigure to reconfigure our server and generate new encryption keys</p>
+<p>root@kali:~# dpkg-reconfigure openssh-server</p>
+<figure>
+<a href="http://programthirteen.com/images/dpkg-reconf.png">
+        <img src="http://programthirteen.com/images/dpkg-reconf.png" alt="" height="500px" width="750px"/>
+    </a>
+</figure>
+<p>You should verify that your keys actually changed with md5sum.</p>
+<p>root@kali:~# md5sum ssh_host_*<br />
+root@kali:~# md5sum old_keys/ssh_host_*</p>
+<p>Let's restart the server with the service command,<br />
+and then check to make sure the server restarted correctly.</p>
+<p>root@kali:~# service ssh restart<br />
+root@kali:~# service ssh status</p>
+<figure>
+<a href="http://programthirteen.com/images/restart-serv.png">
+        <img src="http://programthirteen.com/images/restart-serv.png" alt="" height="500px" width="750px"/>
+    </a>
+</figure>
+<p>Let's see if we can connect to our new server<sup><sup>*The password will be the password of the user you are connecting to*</sup></sup></p>
+<figure>
+<a href="http://programthirteen.com/images/success.png">
+        <img src="http://programthirteen.com/images/sucess.png" alt="" height="500px" width="750px"/>
+    </a>
+</figure>
+<p>You server is now accessable to anyone on the local network!</p>
+<p>When you logged in you should have gotten a message like this:</p>
+<figure>
+<a href="http://programthirteen.com/images/orig-motd.png">
+        <img src="http://programthirteen.com/images/orig-motd.png" alt="" height="500px" width="750px"/>
+    </a>
+</figure>
+<p>Let's replace this message with our own personal greeting.<br />
+Navigate to the /etc directory and open 'motd' in your text editor.</p>
+<p>root@kali:~# cd /etc<br />
+root@kali:~# nano motd</p>
+<figure>
+<a href="http://programthirteen.com/images/mod-motd.png">
+        <img src="http://programthirteen.com/images/mod motd.png" alt="" height="500px" width="750px"/>
+    </a>
+</figure>
+<p>Once you are done, save your file and exit. Now we will edit out sshd_config file to make<br />
+that our message is displayed when a user logs in. Go to /etc/ssh and open your sshd_config file in your<br />
+text editor. Find a line that says "PrintMotd" toward the bottom of the page and change the value<br />
+from 'no' to 'yes'. 
+<figure>
+<a href="http://programthirteen.com/images/print-motd.png">
+        <img src="http://programthirteen.com/images/print-motd.png" alt="" height="500px" width="750px"/>
+    </a>
+</figure>
+Then reconnect to your server and see your new message.</p>
+<figure>
+<a href="http://programthirteen.com/images/new-motd.png">
+        <img src="http://programthirteen.com/images/new-motd.png" alt="" height="500px" width="750px"/>
+    </a>
+</figure>
+<p>You do not neccessarily have to edit the sshd_config file to show the motd but I always to ensure that<br />
+message is displayed when a user logs in.</p>
+<p>That is all for this tutorial. In a future tutorial I will show you how to edit your sshd_config file to allow<br />
+only specified users or hosts as well as a few other security related tweaks.</p>
+<h5>Author: 73RM1N41@Program13</h5>
+<h5>Date: 09-30-17</h5>
