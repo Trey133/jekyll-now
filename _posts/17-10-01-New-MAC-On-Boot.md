@@ -19,7 +19,7 @@ we will be writting and a bash script that we will create later on. <br />
 It is recommended that you have a little bit of programming or scripting experience before completing<br />
 this tutorial although it is not required. I will attempt to explain everything that is going<br />
 on so you can understand exactly what it is your system is doing when the MAC address is changed.</p>
-<h2 style="text-align: left">Prerequisites</h2>
+<h3 style="text-align: left">Prerequisites</h3>
 <p align="left">For this tutorial you will need to have:
 <ul>
 <li>A PC Running Kali Linux2.0</li><br /><br />
@@ -27,3 +27,12 @@ on so you can understand exactly what it is your system is doing when the MAC ad
 <li>macchanger  <sup>apt-get install macchanger</sup></li><br /><br />
 </ul>
 </p>
+<h3>Let's Get Started!</h3>
+<p>We are going to be creating 2 different files in this tutorial. One to control the networking devices and<br />
+to change the mac address, and one to write the new mac address to the system-connections file. I am<br />
+fairly certain that you don't have to do this with 2 different scripts. You could probably get the job done just<br />
+as well with one, but this worked very well for me so this is the way I will show you today.</p>
+<p>We will start with the python program since it is the longer of the two. Open your text editor and type<br />
+this at the top of the page:<br />
+<em>#!/usr/bin/env python</em><br />
+
