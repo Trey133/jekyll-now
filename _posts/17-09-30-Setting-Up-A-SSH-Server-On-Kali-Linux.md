@@ -100,7 +100,7 @@ root@kali:~# nano motd</p>
         <img src="http://programthirteen.com/images/mod motd.png" alt="" height="500px" width="750px"/>
     </a>
 </figure>
-<p>Once you are done, save your file and exit. Now we will edit out sshd_config file to make<br />
+<p>Once you are done, save your file and exit. Now we will edit our sshd_config file to make sure<br />
 that our message is displayed when a user logs in. Go to /etc/ssh and open your sshd_config file in your<br />
 text editor. Find a line that says "PrintMotd" toward the bottom of the page and change the value<br />
 from 'no' to 'yes'. 
@@ -115,9 +115,8 @@ Then reconnect to your server and see your new message.</p>
         <img src="http://programthirteen.com/images/new-motd.png" alt="" height="500px" width="750px"/>
     </a>
 </figure>
-<p>You do not neccessarily have to edit the sshd_config file to show the motd but I always to ensure that<br />
-message is displayed when a user logs in.</p>
+<p>You do not neccessarily have to edit the sshd_config file to show the motd but I always do to ensure that<br />
+the message is displayed when a user logs in.</p>
 <p>That is all for this tutorial. In a future tutorial I will show you how to edit your sshd_config file to allow<br />
 only specified users or hosts as well as a few other security related tweaks.</p>
 <h5 style="text-align: left">Author: 73RM1N41@Program13</h5>
-<h5 style="text-align: left">Date: 09-30-17</h5>
