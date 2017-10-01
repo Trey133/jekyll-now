@@ -45,4 +45,4 @@ python helloworld.py</p>
 <p>That's it for this tutorial. Stay tuned for more awesome python tutorials.<br />
 While your waiting for the next one to be released, check out some of the other tutorials<br />
 on our site</p>
-<p align="left">Author: 73RM1N41@Program13</p>
+<p align="left"><big>Author: 73RM1N41@Program13<big></p>
