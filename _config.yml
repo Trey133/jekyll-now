@@ -1,7 +1,7 @@
 #
 # This file contains configuration flags to customize your site
 #
-
+permalink: /404.html
 # Name of your site (displayed in the header)
 name: programthirteen.com
 
@@ -53,7 +53,6 @@ baseurl: ""
 #
 
 permalink: /:title/
-permalink: 404.html
 # The release of Jekyll Now that you're using
 version: v1.2.0
 
