@@ -33,7 +33,7 @@ If you have already made modifications to this file that you wish to keep, selec
 <br />If you have not made any changes to this file you may choose to "install the package maintainer's version".
 <br />This will give you a sshd_config file with default configurations.</p>
 <p>Once the installation is finished, it is time to begin setting up our new SSH server.<br />
-To make sure our server starts when our system boots, we will add it to our init scripts</p>
+To make sure our server starts when our system boots, we will add it to our init scripts.</p>
 <p>
 root@kali:~# update-rc.d ssh remove<br />
 root@kali:~# update-rc.d ssh defaults<br />
@@ -120,5 +120,5 @@ Then reconnect to your server and see your new message.</p>
 message is displayed when a user logs in.</p>
 <p>That is all for this tutorial. In a future tutorial I will show you how to edit your sshd_config file to allow<br />
 only specified users or hosts as well as a few other security related tweaks.</p>
-<h5>Author: 73RM1N41@Program13</h5>
-<h5>Date: 09-30-17</h5>
+<h5 style="text-align: left">Author: 73RM1N41@Program13</h5>
+<h5 style="text-align: left">Date: 09-30-17</h5>
