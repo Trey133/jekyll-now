@@ -151,6 +151,12 @@ your program with './nmac'.</p>
         <img src="http://programthirteen.com/images/run.png" alt="" height="500px" width="750px"/>
     </a>
 </figure> 
+<p>Check your system-connections file again and see if the MAC addresses have changed.</p>
+<figure>
+<a href="http://programthirteen.com/images/itworks.png">
+        <img src="http://programthirteen.com/images/itworks.png" alt="" height="500px" width="750px"/>
+    </a>
+</figure>
 <p>Go to your main menu (usually top or bottom left) > Settings > Session and Startup > Application Autostart<br />
 Add your program by hitting the '+ Add' button at the bottom of the list. Your program should now start every time<br />
 you log in to your system.</p>
