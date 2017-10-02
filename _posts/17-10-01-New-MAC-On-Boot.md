@@ -72,7 +72,7 @@ have a slower system, you may need to increase this a bit if you start to have i
 Open a new file in your editor. This file is going to write our new mac address to the system-connections files.<br />
 <p>Now, this script is going to be a bash file so we will have a slightly different header.</p>
 <p><em>#!/bin/sh</em></p>
-<p>The first this we need to do, is to get the new MAC address provided my macchanger. Your MAC address is stored<br />
+<p>The first thing we need to do, is to get the new MAC address provided my macchanger. Your MAC address is stored<br />
 in '/sys/class/net/wlan0/address' so we can get the address with our bash script like this:</p>
 <figure>
 <a href="http://programthirteen.com/images/getnewmac.png">
