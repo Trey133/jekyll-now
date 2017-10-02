@@ -103,7 +103,7 @@ It looks a little confusing so let's take a look at what this command is actuall
 Let's start with "s#^mac-address=.*#mac-address=$MAC#g". This portion of the command is telling sed to look<br />
 for the line 'mac-address=' and replace the text that follows that line with our new MAC address {$MAC}.<br />
 The '-i' in our command is used to specify the file(s) that sed should modify. We added an asterisc after the trailing<br />
-backspace to tell sed that we want it to check all the files in the directory 'system-connections' {/etc/NetworkManager/system-connections/*}.</p>
+forward slash to tell sed that we want it to check all the files in the directory 'system-connections' {/etc/NetworkManager/system-connections/*}.</p>
 <p>Now let's tell our program to wait for a few seconds so the system can register the changes to the files, then we<br />
 will print a message to the screen telling us that our script is finished running.</p>
 <figure>
