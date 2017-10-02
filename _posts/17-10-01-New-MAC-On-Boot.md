@@ -157,6 +157,7 @@ your program with './nmac'.</p>
         <img src="http://programthirteen.com/images/itworks.png" alt="" height="500px" width="750px"/>
     </a>
 </figure>
+<h4>IT WORKS!!!</h4>
 <p>Go to your main menu (usually top or bottom left) > Settings > Session and Startup > Application Autostart<br />
 Add your program by hitting the '+ Add' button at the bottom of the list. Your program should now start every time<br />
 you log in to your system.</p>
