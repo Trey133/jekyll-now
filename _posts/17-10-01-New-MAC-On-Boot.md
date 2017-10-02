@@ -98,7 +98,7 @@ This is the line we are going to change in every one of our system-connection fi
         <img src="http://programthirteen.com/images/sedcom.png" alt="" height="500px" width="750px"/>
     </a>
 </figure>
-<p>This command will find the line labled 'mac-address' in every one of our system-connection files.<br />
+<p>This command will modify the line labled 'mac-address' in every one of our system-connection files.<br />
 It looks a little confusing so let's take a look at what this command is actually doing.<br />
 Let's start with "s#^mac-address=.*#mac-address=$MAC#g". This portion of the command is telling sed to look<br />
 for the line 'mac-address=' and replace the text that follows that line with our new MAC address {$MAC}.<br />
