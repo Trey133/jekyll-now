@@ -7,6 +7,5 @@ while True:
     print "%s\n" % str(gitadd)
     print "%s\n" % str(commit)
     print "%s\n" % str(push)
-    print "%s\n" % str(build_site)
     subprocess.call(["jekyll" "build"])
     time.sleep(10)
