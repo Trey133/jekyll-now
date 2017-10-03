@@ -2,13 +2,18 @@
 import subprocess
 import os
 import time
+def clear():
+    subprocess.call(["clear"])
 while True:
+    clear()
+    print "Updating Website..."
     gitadd = subprocess.check_output(["git", "add", "-A"])
     commit = subprocess.check_output(["git", "commit", "-m", "Update"])
     push = subprocess.check_output(["git", "push", "origin"])
-    print "%s\n" % str(gitadd)
-    print "%s\n" % str(commit)
-    print "%s\n" % str(push)
+    print "%s" % str(gitadd)
+    print "%s" % str(commit)
+    print "%s" % str(push)
     os.system("jekyll build")
-    print "Website Updated!"
+    clear()
+    print "\n\nWebsite Updated!"
     time.sleep(30)
