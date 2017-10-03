@@ -16,7 +16,7 @@ If you placce more than one word inside the double quotes, Google will get resul
 in the exact same order that you specified. You can also use '+' to tell Google that your results should<br />
 include a specific word. You can string these together to create more specific results. If you want<br />
 to tell Google that you do want results to <em>exclude</em> a specific term, just use '-'.<br />
-<ul align="center">
+<ul style="align: center">
 <li>EX: "funny puppy pictures" > All results will include 'funny' then 'puppy' then 'pictures' in a string<br />
 somwhere on the webpage.<br /></li>
 <li>EX: +funny +puppy +pictures > All results will include the terms 'funny', 'puppy' and 'picture'<br />
