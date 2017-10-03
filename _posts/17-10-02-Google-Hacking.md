@@ -19,7 +19,7 @@ to tell Google that you want results to <em>exclude</em> a specific term, just u
 EX: "funny puppy pictures" > All results will include 'funny' then 'puppy' then 'pictures' in a string<br />
 somwhere on the webpage.<br /><br />
 EX: +funny +puppy +pictures -cat > All results will include the terms 'funny', 'puppy' and 'picture'<br />
-somewhere on the page. The order is not specified. +puppy +pictures +funny would yeild the same<br />
+somewhere on the page. The order is not specified. +puppy +pictures +funny would yield the same<br />
 results.<br /><br />
 EX: +funny +puppy -cat > Google will return results containing the term 'funny' and 'puppy' but not the word 'cat'
 </p>
