@@ -12,7 +12,7 @@ while True:
     subprocess.Popen(["git", "add", "-A"], stdout=subprocess.PIPE)
     subprocess.Popen(["git", "commit", "-m", "Update"], stdout=subprocess.PIPE)
     subprocess.Popen(["git", "push", "origin"], stdout=subprocess.PIPE)
-    os.system("jekyll build > /dev/null")
+    os.system("jekyll build -q")
     clear()
     print "\n\nWebsite Last Updated At: %s" % now
     time.sleep(30)
