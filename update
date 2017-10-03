@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 import subprocess
+import os
 while True:
     gitadd = subprocess.check_output(["git", "add", "-A"])
     commit = subprocess.check_output(["git", "commit", "-m", "Update"])
@@ -7,5 +8,5 @@ while True:
     print "%s\n" % str(gitadd)
     print "%s\n" % str(commit)
     print "%s\n" % str(push)
-    subprocess.call(["jekyll" "build"])
+    os.system("jekyll build")
     time.sleep(10)
