@@ -17,7 +17,7 @@ in the exact same order that you specified. You can also use '+' to tell Google 
 include a specific word. You can string these together to create more specific results. If you want<br />
 to tell Google that you want results to <em>exclude</em> a specific term, just use '-'.<br /><br />
 EX: "funny puppy pictures" > All results will include 'funny' then 'puppy' then 'pictures' in a string<br />
-somwhere on the webpage.<br /><br />
+somewhere on the webpage.<br /><br />
 EX: +funny +puppy +pictures > All results will include the terms 'funny', 'puppy' and 'picture'<br />
 somewhere on the page. The order is not specified. +puppy +pictures +funny would yield the same<br />
 results.<br /><br />
