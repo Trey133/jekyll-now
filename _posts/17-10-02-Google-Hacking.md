@@ -21,5 +21,5 @@ to tell Google that you do want results to <em>exclude</em> a specific term, jus
 somwhere on the webpage.<br /></li>
 <li>EX: +funny +puppy +pictures > All results will include the terms 'funny', 'puppy' and 'picture'<br />
 somewhere on the page. The order is not specified. +puppy +pictures +funny would yeild the same<br />
-results.</li></ul></p>
+results.</li></ul></p><br /><br />
 
