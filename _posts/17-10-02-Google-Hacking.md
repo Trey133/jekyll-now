@@ -24,7 +24,7 @@ results.<br /><br />
 EX: +funny +puppy -cat > Google will return results containing the term 'funny' and 'puppy' but not the word 'cat'
 </p>
 <p>If you want to make sure that your results include only the webpages with your query somewhere in<br />
-the text of the webpage {not in a title somewhere on the page}, then you can use the 'intext:' keyword<br /><br />
+the text of the webpage {not in a title of a page}, then you can use the 'intext:' keyword<br /><br />
 EX: intext:parrots intext:computers > This will search for sites with "parrots" and "computers" in a webpages text.
 <br /><br />
 </p>
