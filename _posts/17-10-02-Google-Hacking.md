@@ -29,7 +29,7 @@ EX: intext:parrots intext:computers > This will search for sites with "parrots" 
 <br /><br />
 </p>
 <p>If you would rather search for a specific term located in a webpages title or url, you can use<br />
-'intitle:' or 'inurl:' respectively. If you have multiple terms you would like to locate within a<br />
+'intitle:' or 'inurl:' respectively. If you have multiple terms you would like to search for within a<br />
 webpages title, you can use 'allintitle:'<br /><br />
 EX: intitle:cattleblaster > This will return results with the term 'cattleblaster' in the webpages title.<br /><br />
 EX: allintitle:north korean cattleblaster > This will find webpages with 'north', 'korean', and 'cattleblaster' all in the title of the webpage.<br /><br />
