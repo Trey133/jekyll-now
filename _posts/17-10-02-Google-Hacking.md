@@ -22,3 +22,23 @@ EX: +funny +puppy +pictures > All results will include the terms 'funny', 'puppy
 somewhere on the page. The order is not specified. +puppy +pictures +funny would yeild the same<br />
 results.
 </p><br /><br />
+<p>If you want to make sure that your results include only the webpages with your query somewhere in<br />
+the text of the webpage {not in a title somewhere on the page}, then you can use the 'intext:' keyword<br /><br />
+EX: intext:parrots intext:computers > This will search for sites with "parrots" and "computers" in a webpages text.
+<br /><br />
+</p>
+<p>If you would rather search for a specific term located in a webpages title or url, you can use<br />
+'intitle:' or 'inurl:' respectively. If you have multiple terms you would like to locate within a<br />
+webpages title, you can use 'allintitle:'<br /><br />
+EX: intitle:cattleblaster > This will return results with the term 'cattleblaster' in the webpages title.<br /><br />
+EX: allintitle:north korean cattleblaster > This will find webpages with 'north', 'korean', and 'cattleblaster' all in the title of the webpage.<br /><br />
+EX: inurl:smurffights > This query will return webpages with the term 'smurffights' in the url.<br /><br />
+</p>
+<p>If we wanted to search a specific site, say 'fakesite.org' for a term, we could use the 'site:' keyword<br /><br />
+EX: site:fakesite.org "some interesting stuff" > This will search 'fakesite.org' for the phrase 'some interesting stuff'<br /></p>
+<p>We can also search for specific filetypes and extentions using 'filetype:' or 'ext:'<br /><br />
+EX: site:fakesite.org filetype:pdf > This will search 'fakesite.org' for any PDF files<br /><br />
+EX: inurl:music ext:mp3 > This will return sites with the term 'music' in the url which also contain 'mp3' files<br /></p>
+<p>Thats all for this tutorial. In the next Google Hacking Tutorial we will cover some of the more advanced<br />
+ways to use Google's keywords to find specific content, files, and even people. Stay tunned!
+<p align="left">Author: 73RM1N41@Program13</p>
