@@ -18,9 +18,10 @@ include a specific word. You can string these together to create more specific r
 to tell Google that you want results to <em>exclude</em> a specific term, just use '-'.<br /><br />
 EX: "funny puppy pictures" > All results will include 'funny' then 'puppy' then 'pictures' in a string<br />
 somwhere on the webpage.<br /><br />
-EX: +funny +puppy +pictures > All results will include the terms 'funny', 'puppy' and 'picture'<br />
+EX: +funny +puppy +pictures -cat > All results will include the terms 'funny', 'puppy' and 'picture'<br />
 somewhere on the page. The order is not specified. +puppy +pictures +funny would yeild the same<br />
-results.
+results.<br /><br />
+EX: +funny +puppy -cat > Google will return results containing the term 'funny' and 'puppy' but not the word 'cat'
 </p>
 <p>If you want to make sure that your results include only the webpages with your query somewhere in<br />
 the text of the webpage {not in a title somewhere on the page}, then you can use the 'intext:' keyword<br /><br />
