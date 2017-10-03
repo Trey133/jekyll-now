@@ -14,5 +14,5 @@ while True:
     os.system("git commit -m 'Update' -q")
     os.system("git push origin -q")
     os.system("jekyll build -q")
-    print colored("\n\nWebsite Last Updated At: %s" % now, 'yellow', attrs=['bold'])
+    print colored("\n\nWebsite Last Updated At: %s" % now, 'green', attrs=['bold'])
     time.sleep(30)
