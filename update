@@ -9,10 +9,9 @@ def clear():
 while True:
     clear()
     print "Updating Website..."
-    subprocess.Popen(["git", "add", "-A"], stdout=subprocess.PIPE)
-    subprocess.Popen(["git", "commit", "-m", "Update"], stdout=subprocess.PIPE)
-    subprocess.Popen(["git", "push", "origin"], stdout=subprocess.PIPE)
+    os.system("git add -A")
+    os.system("git commit -m 'Update' -q")
+    os.system("git push origin -q")
     os.system("jekyll build -q")
-    clear()
     print "\n\nWebsite Last Updated At: %s" % now
     time.sleep(30)
