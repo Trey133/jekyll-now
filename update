@@ -2,18 +2,20 @@
 import subprocess
 import os
 import time
+from datetime import datetime
+now = str(datetime.now())
 def clear():
     subprocess.call(["clear"])
 while True:
     clear()
     print "Updating Website..."
-    gitadd = subprocess.check_output(["git", "add", "-A"])
-    commit = subprocess.check_output(["git", "commit", "-m", "Update"])
-    push = subprocess.check_output(["git", "push", "origin"])
+    gitadd = subprocess.check_output(["git", "add", "-A"], subprocess.PIPE)
+    commit = subprocess.check_output(["git", "commit", "-m", "Update"], subprocess.PIPE)
+    push = subprocess.check_output(["git", "push", "origin"], subprocess.PIPE)
     print "%s" % str(gitadd)
     print "%s" % str(commit)
     print "%s" % str(push)
     os.system("jekyll build")
     clear()
-    print "\n\nWebsite Updated!"
+    print "\n\nWebsite Last Updated At: %s" % now
     time.sleep(30)
