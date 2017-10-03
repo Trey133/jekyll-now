@@ -2,7 +2,7 @@
 layout: post
 title: Google Hacking
 ---
-As everyone already knows, Google is a great research tool for everyone from grade school children<br />
+<p>As everyone already knows, Google is a great research tool for everyone from grade school children<br />
 to scholars in the field. Almost everyone knows how simple it is to use and I'm sure most people<br />
 feel that they have a pretty good handle on how to use Google. But, what if you were doing things<br />
 the hard way? Think about it... Everyone has had that one search that they spent 'forever'<br />
