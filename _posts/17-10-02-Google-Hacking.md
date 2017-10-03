@@ -12,7 +12,7 @@ in your Google search to find those perfect results in no time.</p>
 <p>The first 'keyword' we will discuss isn't a word at all actually. The '"' {double quote} character<br /> 
 can be used to tell Google that you want to search for a specific word or term.<br /><br />
 EX: "python2.7" > This would tell google that all of the results should containt the term 'python2.7'.<br /><br />
-If you placce more than one word inside the double quotes, Google will get results with the words<br />
+If you place more than one word inside the double quotes, Google will get results with the words<br />
 in the exact same order that you specified. You can also use '+' to tell Google that your results should<br />
 include a specific word. You can string these together to create more specific results. If you want<br />
 to tell Google that you do want results to <em>exclude</em> a specific term, just use '-'.<br /><br />
