@@ -21,7 +21,7 @@ somwhere on the webpage.<br /><br />
 EX: +funny +puppy +pictures > All results will include the terms 'funny', 'puppy' and 'picture'<br />
 somewhere on the page. The order is not specified. +puppy +pictures +funny would yeild the same<br />
 results.
-</p><br /><br />
+</p>
 <p>If you want to make sure that your results include only the webpages with your query somewhere in<br />
 the text of the webpage {not in a title somewhere on the page}, then you can use the 'intext:' keyword<br /><br />
 EX: intext:parrots intext:computers > This will search for sites with "parrots" and "computers" in a webpages text.
