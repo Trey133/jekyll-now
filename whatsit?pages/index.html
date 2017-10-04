@@ -1,0 +1,34 @@
+---
+layout: default
+title: Program13
+---
+<h1 class="page-heading">Whatsit?Pages</h1>
+<br/>
+<p>More Whatsit?Pages Coming Soon</p>
+<div class="posts">
+  {% for post in site.posts %}
+    {% if post.whatsit == 'whatsit' %}
+          <li>
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+            <h2>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
+            </h2>
+          </li>
+    {% endif %}
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>
+<br />
+<br />
+<br />
+<hr width="100%">
+<br />
+<br />
+<h2>Past Whatsit?Pages</h2>
+<br />
+<p>We have not added any whatsit?pages yet... :(<br />
+We will be adding some for you soon!</p>
