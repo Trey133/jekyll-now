@@ -6,17 +6,32 @@ title: Program13
 
   <h1 class="page-heading">Latest Tutorials</h1>
 <br/>
-  <ul class="post-list">
+<!--  <ul class="post-list"> -->
     {% for post in site.posts %}
-      <li>
+        {% if post.whatsit != null %}
+        {% else %}
+            <div class="post">
+            <h1 class="post-title">
+                <a href="{{ post.url }}">
+                    {{ post.title }}
+                </a>
+            </h1>    
+
+        <span class="post-date">{{ post.date | date_to_string }}</span>    
+
+        {{ post.content }}
+      </div>
+  {% endfor %}
+</div>
+<!--      <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
         </h2>
       </li>
-    {% endfor %}
-  </ul>
+    {% endfor %} -->
+<!--  </ul> -->
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
@@ -25,4 +40,29 @@ title: Program13
 <br/>
 <br/>
 </div>
+<br />
+<br />
+<hr width="100%">
+<br />
+<br />
+  <h1 class="page-heading">Whatsit?Pages</h1>
+<br/>
+<div class="posts">
+  {% for post in site.posts %}
+    {% if post.whatsit == 'whatsit' %}
+      <div class="post">
+        <h1 class="post-title">
+          <a href="{{ post.url }}">
+            {{ post.title }}
+          </a>
+        </h1>
+
+        <span class="post-date">{{ post.date | date_to_string }}</span>
+
+        {{ post.content }}
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
+<br />
 <br />
