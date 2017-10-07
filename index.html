@@ -10,7 +10,7 @@ title: Program13
     {% for post in site.posts %}
         {% if post.whatsit != null %}
         {% else %}
-            {% if post.graph != null %}
+            {% if post.misc != null %}
             {% else %} -->
                 <li>
                 <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
@@ -44,6 +44,34 @@ title: Program13
 <div class="posts">
   {% for post in site.posts %}
     {% if post.whatsit == 'whatsit' %}
+          <li>
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+            <h2>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
+            </h2>
+          </li>
+    {% endif %}
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<hr width="100%">
+<br />
+  <h1 class="page-heading">Misc.</h1>
+<br/>
+<p>More Misc. Coming Soon</p>
+<div class="posts">
+  {% for post in site.posts %}
+    {% if post.misc == 'misc' %}
           <li>
             <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
