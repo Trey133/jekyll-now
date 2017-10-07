@@ -62,7 +62,7 @@ our file to easily change the speed of the entire script.</p>
     </a>
 </figure>
 <p>That's It.<br />
-Now just save your file as perlog.pl and give it execute permissions with 'chmod +x perlog'.<br />
+Now just save your file as perlog.pl and give it execute permissions with 'chmod +x perlog.pl'.<br />
 Now you can execute your new log watcher with './'<br />
 EX: ./perlog</p>
 <figure>
