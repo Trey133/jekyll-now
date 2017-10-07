@@ -9,8 +9,8 @@ to the address at the bottom of this page or just . </p>
 <h3 style="text-align:left">Prerequisites</h3>
 <div class="prequisites">
 <ul style="text-align: left">
-<li>I will be using Kali Linux but and Linux Distro Should Work.</li>
-<li>Perl5 (I will be using v5.26.0)</li>
+<li>I will be using Kali Linux but and Linux Distro Should Work.</li><br /><br />
+<li>Perl5 (I will be using v5.26.0)</li><br /><br />
 </ul>
 </div>
 
