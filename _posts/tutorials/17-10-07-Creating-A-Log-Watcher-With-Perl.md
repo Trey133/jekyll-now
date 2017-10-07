@@ -13,7 +13,7 @@ to the address at the bottom of this page or just . </p>
 <li>Perl5 (I will be using v5.26.0)</li><br /><br />
 </ul>
 </div>
-<p>Let's begin by adding our header. The will tell Perl that we want to use ANSIColor. We are using this to<br />
+<p>Let's begin by adding our header. Then we will tell Perl that we want to use ANSIColor. We are using this to<br />
 easily distinguish the different logs by color coding them.</p>
 <figure>
 <a href="http://programthirteen.com/images/perlog-header.png">
@@ -70,4 +70,6 @@ EX: ./perlog</p>
         <img src="http://programthirteen.com/images/running-perlog.png" alt="" height="500px" width="750px"/>
     </a>
 </figure>
+<p>Edit your script to add or remove any logs you would like. You can also add terminal commands that you would like to watch the same way we added 'journalctl'<br />
+earlier. Modify until it's perfect for you and as always, if you know of a 'better' way, post it in the comments or shoot us an email from the link at the bottom of the page.</p>
 <p align="left">Author: 73RM1N41@Program13</p>
