@@ -9,7 +9,9 @@ title: Hello World Program With Python
 Python2.7+<br />
 Any text editor will do</p>
 <p>To begin, open your text editor and type the following at the top of the page:<br />
+{% highlight python %}
 #!/usr/bin/env python<br />
+{% endhighlight %}
 </p>
 <figure>
 <a href="http://programthirteen.com/images/helloheader.png">
