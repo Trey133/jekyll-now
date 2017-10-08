@@ -9,7 +9,7 @@ visible to the rest of the world but for today, let's focus on building our webs
 <p>We are going to be using the Apache2 webserver for our website since it can be installed<br />
 fairly easily and isn't too difficult for a newcomer to learn how to setup. Again, I will not<br />
 be going over any advanced Apache2 functionalities, or anything at all past a little bit<br />
-of HTML and some CSS. This tutorial is for those of you who would like to learn how to develop<br />
+of HTML. This tutorial is for those of you who would like to learn how to develop<br />
 your own websites, but have no idea how to do it without using those online services and website<br />
 builders. If you just want a simple, basic website to show basic things like, your business info, pictures,<br />
 or some other fairly small service, and you really don't care about the development part of it,<br />
