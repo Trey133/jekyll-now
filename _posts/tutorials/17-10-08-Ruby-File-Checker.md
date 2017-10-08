@@ -151,7 +151,6 @@ then run your new program with './'</p>
 chmod +x filecheck
 ./filecheck --help
 Usage: flck [file/dir]
-
 ./filecheck filecheck
 ##################################################
 #  [Name]: filecheck
