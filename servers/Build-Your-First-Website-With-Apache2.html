@@ -76,4 +76,4 @@ You should now be able to see your page!</p>
 in our 'Resources' tab at the top of the page to help you along in your development journey.</p>
 <p>In our next Apache2 tutorial, I will go more into the server itself and how to make your site public.<br />
 Today we just want to get our first site up and running so stay tunned for more great tutorials!</p>
-<p>Author: 73RM1N41@Program13</p>
+<p align="left">Author: 73RM1N41@Program13</p>
