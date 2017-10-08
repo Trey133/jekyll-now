@@ -12,9 +12,11 @@ permissions, and size.</p>
 </ul>
 </p>
 <p>Let's begin by adding our standard Ruby header<br />
+<div id="code" style="text-align: left">
 {% highlight ruby %}
 #!/usr/bin/ruby -w
 {% endhighlight %}
+</div>
 We will add the '-w' option to turn on warnings for our Ruby script.<br />
 Having a file checker can be very useful at times, but if the program must run interactively,<br />
 it suddenly becomes less attractive to those serious systems admins and developers out there<br />
