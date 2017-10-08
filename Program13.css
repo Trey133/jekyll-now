@@ -7,8 +7,12 @@ color: limegreen;
 text-align: center;
 text-shadow: 20px 12px 3px #ff0000;
 }
-li {
+.li {
   text-align: center;
+}
+.ul {
+  text-align: center;
+  list-style-position: inside;
 }
 h2 {
   text-align: center;
