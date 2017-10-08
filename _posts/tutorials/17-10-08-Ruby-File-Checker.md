@@ -7,8 +7,8 @@ We will be checking the files name, existence, path, type, creation/modification
 permissions, and size.</p>
 <p>Prerequisites</p>
 <ul style="text-align: left">
-<li>I will be using Kali but any Linux Distro should work.* <sup><sup>I have not tested anything other than Kali</sup></sup></li>
-<li>Ruby <sub>apt-get install ruby</sub> <sup>I will be using version 2.3.3p222</sup></li>
+<li>I will be using Kali but any Linux Distro should work.* <sup><sup>I have not tested anything other than Kali</sup></sup></li><br /><br />
+<li>Ruby <sub>apt-get install ruby</sub> <sup>I will be using version 2.3.3p222</sup></li><br /><br />
 </p>
 <p>Let's begin by adding our standard Ruby header<br />
 {% highlight ruby %}
