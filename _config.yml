@@ -24,7 +24,7 @@ footer-links:
   instagram:
   linkedin:
   pinterest:
-  rss: http://programthirteen.com/images/13-1.jpg
+  rss: http://programthirteen.com/feed.xml
   twitter: Program7h1r733n
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: https://www.youtube.com/channel/UCgiCjn4-DY37lKmNgPQlhaQ
@@ -33,10 +33,10 @@ footer-links:
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
-disqus:
+disqus: programthirteen-com
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics:
+google_analytics: UA-78694598-6
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
