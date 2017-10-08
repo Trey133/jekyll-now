@@ -12,7 +12,7 @@ title: Program13
         {% if post.whatsit != null %}
         {% else %}
             {% if post.misc != null %}
-            {% else %} -->
+            {% else %}
                 <li>
                 <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
@@ -49,7 +49,7 @@ title: Program13
     {% endif %}
     {% endfor %}
   </ul>
-
+  <br style="clear:both;" />
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>
@@ -72,7 +72,7 @@ title: Program13
     {% endif %}
     {% endfor %}
   </ul>
-
+  <br style="clear:both;" />
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>
