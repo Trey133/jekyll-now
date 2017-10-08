@@ -6,7 +6,7 @@ title: Program13
 
   <h1 class="page-heading">Latest Tutorials</h1>
 <br/>
- <ul class="post-list" type="circle"> -->
+ <ul class="post-list" type="circle">
     {% for post in site.posts %}
         {% if post.whatsit != null %}
         {% else %}
@@ -19,7 +19,6 @@ title: Program13
                 <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
                 </h2>
                 </li>
-                <br><br><br>
            {% endif %}
         {% endif %}
     {% endfor %}
