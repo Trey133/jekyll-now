@@ -105,6 +105,7 @@ and what type of file it is (ex: .pdf, .mp3, .docx).</p>
 {% endhighlight %}
 <p>The final 3 things we are going to check for is to see when the file was created, when it was<br />
 last modified, and when it was last accessed.</p>
+{% highlight ruby %}
 # Check To See When File Was Created
     create = File::ctime( file ).to_s
 # Check to See When File Was Last Modified
