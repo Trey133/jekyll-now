@@ -32,7 +32,7 @@ help using our program. We can check for this with a simple conditional.</p>
 {% highlight ruby %}
 # Check To See If User Is Asking For Help
 if filename == '--help' || filename == '-h'
-  puts "Usage: flck [file/dir]"
+  puts "Usage: filecheck [file/dir]"
 {% endhighlight %}
 <p>If, however, our user doesn't need help, the first thing we want to do is to check and see if<br />
 the file exists that they are asking about. We will do this using the 'File::exist?' function.</p>
@@ -151,7 +151,7 @@ then run your new program with './'</p>
 {% highlight bash %}
 chmod +x filecheck
 ./filecheck --help
-Usage: flck [file/dir]
+Usage: filecheck [file/dir]
 ./filecheck filecheck
 ##################################################
 #  [Name]: filecheck
