@@ -6,7 +6,7 @@ title: Program13
 
   <h1 class="page-heading">Latest Tutorials</h1>
 <br/>
- <ul class="post-list" type="circle"> -->
+ <ul class="post-list" type="circle" style="text-align: center"> -->
     {% for post in site.posts %}
         {% if post.whatsit != null %}
         {% else %}
@@ -42,7 +42,7 @@ title: Program13
 <br/>
 <p>Whatsit?Pages Coming Soon</p>
 <div class="posts">
-<ul type="circle">
+<ul type="circle" style="text-align: left">
   {% for post in site.posts %}
     {% if post.whatsit == 'whatsit' %}
           <li>
@@ -72,7 +72,7 @@ title: Program13
 <div class="posts">
   {% for post in site.posts %}
     {% if post.misc == 'misc' %}
-        <ul type="circle">
+        <ul type="circle" style="text-align: right">
           <li>
             <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
