@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+<h3>Welcome To Program13!</h3>
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+<p>Have a look around and learn something new...</p>
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[73RM1N41@programthirteen.com](mailto:73RM1N41@programthirteen.com)
