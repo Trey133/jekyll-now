@@ -5,7 +5,7 @@ title: Ruby-File-Checker
 <p>Today I am going to show you how to create a simple file checker with Python.<br />
 We will be checking the files name, existence, path, type, creation/modification dates,<br />
 permissions, and size.</p>
-<p>Prerequisites</p>
+<p align="left">Prerequisites</p>
 <ul style="text-align: left">
 <li>I will be using Kali but any Linux Distro should work.* <sup><sup>I have not tested anything other than Kali</sup></sup></li><br /><br />
 <li>Ruby <sub>apt-get install ruby</sub> <sup>I will be using version 2.3.3p222</sup></li><br /><br />
