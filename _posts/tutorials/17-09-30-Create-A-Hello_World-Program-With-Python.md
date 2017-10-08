@@ -10,7 +10,7 @@ Python2.7+<br />
 Any text editor will do</p>
 <p>To begin, open your text editor and type the following at the top of the page:<br />
 {% highlight python %}
-#!/usr/bin/env python<br />
+#!/usr/bin/env python
 {% endhighlight %}
 </p>
 <figure>
@@ -22,9 +22,13 @@ Any text editor will do</p>
 Python is complied at run time so there is no need to precompile the file to get it to<br />
 work, just make sure you have this header.</p>
 <p>Now we will add:<br />
-print "Hello World!"<br />
+{% highlight python %}
+print "Hello World!"
+{% endhighlight %}
 If you are using Python3+, your syntax should be:<br />
-print("Hello World")<br />
+{% highlight python %}
+print("Hello World")
+{% endhighlight %}
 Because 'print' was changed to a function in Python3</p>
 <figure>
 <a href="http://programthirteen.com/images/printhello.png">
