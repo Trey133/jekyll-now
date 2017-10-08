@@ -10,6 +10,7 @@ permissions, and size.</p>
 <li>I will be using Kali but any Linux Distro should work.* <sup><sup>I have not tested anything other than Kali</sup></sup></li><br /><br />
 <li>Ruby <sub>apt-get install ruby</sub> <sup>I will be using version 2.3.3p222</sup></li><br /><br />
 </ul>
+</div>
 <div id="content" style="text-align: left">
 <p>Let's begin by adding our standard Ruby header<br />
 {% highlight ruby %}
@@ -170,5 +171,7 @@ Usage: flck [file/dir]
 ##################################################
 {% endhighlight %}
 </div>
+<div id="footer">
 <p>I hope you enjoyed this tutorial! Stay tunned there's lots more to come.</p>
 <p align="left">Author: 73RM1N41@Program13</p>
+</div>
