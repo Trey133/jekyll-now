@@ -10,12 +10,11 @@ permissions, and size.</p>
 <li>I will be using Kali but any Linux Distro should work.* <sup><sup>I have not tested anything other than Kali</sup></sup></li><br /><br />
 <li>Ruby <sub>apt-get install ruby</sub> <sup>I will be using version 2.3.3p222</sup></li><br /><br />
 </ul>
+<div id="content" style="text-align: left">
 <p>Let's begin by adding our standard Ruby header<br />
-<div id="code" style="text-align: left">
 {% highlight ruby %}
 #!/usr/bin/ruby -w
 {% endhighlight %}
-</div>
 We will add the '-w' option to turn on warnings for our Ruby script.<br />
 Having a file checker can be very useful at times, but if the program must run interactively,<br />
 it suddenly becomes less attractive to those serious systems admins and developers out there<br />
@@ -170,5 +169,6 @@ Usage: flck [file/dir]
 #  [Size]: 2326
 ##################################################
 {% endhighlight %}
+</div>
 <p>I hope you enjoyed this tutorial! Stay tunned there's lots more to come.</p>
 <p align="left">Author: 73RM1N41@Program13</p>
