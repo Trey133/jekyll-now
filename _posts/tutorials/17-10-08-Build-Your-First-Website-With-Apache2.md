@@ -74,6 +74,6 @@ sudo service apache2 start
 You should now be able to see your page!</p>
 <p>Add more content and keep on building until you have a perfect site. Check out some of the sites<br />
 in our 'Resources' tab at the top of the page to help you along in your development journey.</p>
-In our next Apache2 tutorial, I will go more into the server itself and how to make your site public.<br />
+<p>In our next Apache2 tutorial, I will go more into the server itself and how to make your site public.<br />
 Today we just want to get our first site up and running so stay tunned for more great tutorials!</p>
 <p>Author: 73RM1N41@Program13</p>
