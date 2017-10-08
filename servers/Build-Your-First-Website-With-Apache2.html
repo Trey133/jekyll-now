@@ -30,7 +30,7 @@ to create ourselves.</p>
 mkdir ../default
 # or you could do
 cd /var/www; mkdir default
-{% end highlight %}</p>
+{% endhighlight %}</p>
 <p>Once you have created your new default directory, move the index.html file to that directory.<br />
 {% highlight bash %}
 cd /var/www/html; mv index.html /var/www/default/
