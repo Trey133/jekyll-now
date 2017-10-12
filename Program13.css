@@ -30,8 +30,10 @@ h1 {
 a {
   color: limegreen;
   font-size: 20;
-  p {
-    text-shadow: 20px 12px 3px #ff0000;
+}
+p {
+  text-shadow: 20px 12px 3px #ff0000;
+  font-weight: bold;
 }
 article {
     text-shadow: 20px 12px 3px #ff0000;
