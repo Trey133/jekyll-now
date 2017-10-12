@@ -47,10 +47,10 @@ article {
 
 .logo {
   border-radius: 50%;
-  -webkit-transition: -webkit-transform 1.3s ease-in-out;
-          transition:         transform 1.3s ease-in-out;
+  -webkit-transition: -webkit-transform 3s ease-in-out;
+          transition:         transform 3s ease-in-out;
 }
 .logo:hover {
-  -webkit-transform: rotate(1840deg);
-          transform: rotate(1840deg);
+  -webkit-transform: rotate(4680deg);
+          transform: rotate(4680deg);
 }
