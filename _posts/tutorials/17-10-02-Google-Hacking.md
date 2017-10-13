@@ -2,7 +2,7 @@
 layout: post
 title: Google Hacking
 ---
-![GoogleLogo](http://programthirteen.com/images/google.jpg =250x250)
+<img src="http://programthirteen.com/images/google.jpg" alt="" width="250px" height="250px"/>
 ---
 <p>As everyone already knows, Google is a great research tool for everyone from grade school children<br />
 to scholars in the field. Almost everyone knows how simple it is to use and I'm sure most people<br />
