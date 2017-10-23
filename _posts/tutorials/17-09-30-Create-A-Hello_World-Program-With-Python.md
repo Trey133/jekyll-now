@@ -4,7 +4,7 @@ title: Hello World Program With Python
 ---
 <br/>
 <h2>Create a simple 'Hello World!' program with python.</h2>
-<p>Today we are going to learn how to make a basic 'Hello World!' program with python.</p>
+<p>Today we are going to learn how to make a simple 'Hello World!' program with python.</p>
 <p align="left"><big>Prerequisites</big><br />
 Python2.7+<br />
 Any text editor will do</p>
